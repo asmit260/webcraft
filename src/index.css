@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* scroll-behavior: smooth; - Removed for Lenis */
+  scroll-padding-top: 5rem;
+  /* Offset for fixed floating navbar */
+}
+
+body {
+  @apply font-sans text-text antialiased selection:bg-primary selection:text-white overflow-x-hidden;
+  background-color: #ffffff;
+
+  /* Hide default cursor for custom smooth cursor only on non-touch devices */
+
+
+  /* Force white background for sketch theme */
+}
+
+/* Restore generic cursor for inputs so text selection is visible */
+input,
+textarea,
+select,
+[contenteditable] {
+  cursor: text !important;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white border-2 border-black;
+  }
+
+  .glass-hover {
+    @apply hover:shadow-sketch transition-all duration-300 transform hover:-translate-y-1;
+  }
+
+  .sketch-border {
+    @apply border-2 border-black shadow-sketch;
+  }
+
+  .text-gradient {
+    @apply text-black;
+    /* Reset gradient text to solid black */
+  }
+}
