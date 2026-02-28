@@ -54,9 +54,9 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl md:text-4xl font-bold font-display text-black"
+            className="text-4xl md:text-5xl font-bold font-display text-black"
           >
-            My <span>Skills</span>
+            My <span className="text-gradient">Skills</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

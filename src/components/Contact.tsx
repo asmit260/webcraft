@@ -37,29 +37,29 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 relative z-10 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-16 items-start max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start max-w-6xl mx-auto">
           {/* Contact Info */}
-          <div className="space-y-8">
-            <h2 className="text-3xl md:text-4xl font-bold font-display text-black">
+          <div className="space-y-8 text-center lg:text-left">
+            <h2 className="text-4xl md:text-5xl font-bold font-display text-black">
               Start a Project <span>With Us</span>
             </h2>
-            <p className="text-textMuted text-lg leading-relaxed">
+            <p className="text-textMuted text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
               Have a project in mind? We'd love to hear about it. Tell us what you're building and let's figure out how WebCraft can help bring it to life.
             </p>
 
-            <div className="space-y-6 pt-4">
+            <div className="space-y-6 pt-4 text-left">
               <a href={`mailto:${site.email}`} className="flex items-center gap-4 p-4 rounded-xl bg-white border-2 border-black hover:shadow-sketch transition-all group duration-300 hover:-translate-y-1">
-                <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-black flex items-center justify-center text-black group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-black flex items-center justify-center text-black group-hover:scale-110 transition-transform shrink-0">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-sm text-textMuted">Email Us</p>
-                  <p className="font-medium text-black">{site.email}</p>
+                  <p className="font-medium text-black break-all">{site.email}</p>
                 </div>
               </a>
 
               <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-white border-2 border-black hover:shadow-sketch transition-all group duration-300 hover:-translate-y-1">
-                <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-black flex items-center justify-center text-black group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-black flex items-center justify-center text-black group-hover:scale-110 transition-transform shrink-0">
                   <MessageCircle className="w-6 h-6" />
                 </div>
                 <div>
@@ -69,7 +69,7 @@ export default function Contact() {
               </a>
 
               <div className="flex items-center gap-4 p-4 rounded-xl bg-white border-2 border-black hover:shadow-sketch transition-all group duration-300 hover:-translate-y-1">
-                <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-black flex items-center justify-center text-black group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-black flex items-center justify-center text-black group-hover:scale-110 transition-transform shrink-0">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -81,9 +81,9 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-3xl border-2 border-black shadow-sketch">
+          <div className="bg-white p-6 md:p-8 rounded-3xl border-2 border-black shadow-sketch">
             <form className="space-y-6" onSubmit={handleSubmit}>
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-black">Name</label>
                   <input

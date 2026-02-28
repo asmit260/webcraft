@@ -59,7 +59,7 @@ export function NavBar({ items, className }: NavBarProps) {
                 className,
             )}
         >
-            <div className="flex items-center gap-3 bg-white border-2 border-black py-1 px-1 rounded-full shadow-sketch pointer-events-auto">
+            <div className="flex items-center justify-between sm:justify-center gap-1 sm:gap-3 bg-white border-2 border-black py-1 px-1 sm:px-2 rounded-full shadow-[2px_2px_0px_rgba(0,0,0,1)] pointer-events-auto w-[90vw] sm:w-auto max-w-full">
                 {items.map((item) => {
                     const Icon = item.icon
                     const isActive = activeTab === item.name
@@ -70,14 +70,14 @@ export function NavBar({ items, className }: NavBarProps) {
                             href={item.url}
                             onClick={() => setActiveTab(item.name)}
                             className={cn(
-                                "relative cursor-pointer text-sm font-semibold px-6 py-2 rounded-full transition-colors border-2 border-transparent",
+                                "relative flex-1 sm:flex-none flex items-center justify-center cursor-pointer text-sm font-bold px-2 py-2 sm:px-6 sm:py-2 rounded-full transition-all border-2 border-transparent",
                                 "text-textMuted hover:text-black",
-                                isActive && "bg-black text-white border-black",
+                                isActive && "bg-black text-white border-black shadow-[2px_2px_0px_rgba(0,0,0,1)]",
                             )}
                         >
                             <span className="hidden md:inline">{item.name}</span>
-                            <span className="md:hidden">
-                                <Icon size={18} strokeWidth={2.5} />
+                            <span className="md:hidden mt-0.5">
+                                <Icon size={20} strokeWidth={2.5} />
                             </span>
                         </a>
                     )

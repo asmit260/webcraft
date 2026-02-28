@@ -4,7 +4,7 @@ import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 
 export default function Hero() {
   return (
-    <section className="relative flex h-screen items-center justify-center overflow-hidden pt-16">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden pt-28 lg:pt-16 pb-12">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -15,21 +15,21 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/50 to-white/80" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center mt-12 lg:mt-0">
         {/* Text Content */}
         <div className="text-center lg:text-left space-y-6">
           <div className="flex justify-center lg:justify-start animate-fade-in-up">
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
-              className="bg-white text-black flex items-center space-x-2"
+              className="bg-white text-black flex items-center space-x-2 text-sm sm:text-base"
             >
               <span>🚀 Welcome to WebCraft Agency</span>
             </HoverBorderGradient>
           </div>
 
           <div className="animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            <h1 className="text-4xl lg:text-7xl font-bold tracking-tight font-display text-black text-center lg:text-left">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight font-display text-black text-center lg:text-left leading-tight">
               We Build <br />
               <span>Digital Products</span>
             </h1>

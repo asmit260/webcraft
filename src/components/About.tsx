@@ -5,10 +5,10 @@ export default function About() {
   return (
     <section id="about" className="py-24 relative z-10 overflow-hidden bg-white">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row gap-16 items-center">
-          {/* Visual Side - Hidden on mobile/tablet */}
-          <div className="hidden lg:block w-full md:w-1/2 relative md:order-last">
-            <div className="aspect-square rounded-2xl bg-white relative border-2 border-black shadow-sketch p-6">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+          {/* Visual Side - Visible but smaller on mobile */}
+          <div className="w-full sm:w-3/4 max-w-sm lg:max-w-none lg:w-1/2 relative lg:order-last mx-auto">
+            <div className="aspect-square rounded-2xl bg-white relative border-2 border-black shadow-sketch p-4 lg:p-6 mt-8 sm:mt-0">
               <img
                 src="https://i.redd.it/c04nu8iqwztf1.gif"
                 alt="WebCraft Team at work"
@@ -18,8 +18,8 @@ export default function About() {
           </div>
 
           {/* Text Side */}
-          <div className="w-full md:w-1/2 space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold font-display text-black">
+          <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
+            <h2 className="text-4xl md:text-5xl font-bold font-display text-black">
               About <span>Us</span>
             </h2>
 
