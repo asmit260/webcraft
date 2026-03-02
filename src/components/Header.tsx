@@ -28,10 +28,12 @@ export default function Header() {
     >
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
         <a href="#" className="flex items-center gap-2 group">
-          <div className="h-10 w-10 rounded-xl bg-black flex items-center justify-center font-bold text-white text-xl group-hover:scale-105 transition-transform border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)]">
-            W
-          </div>
-          <span className="font-display font-bold text-xl tracking-wide text-black">WebCraft</span>
+          <img
+            src="/logo.png"
+            alt="WebCrafts Logo"
+            className="h-12 w-auto group-hover:scale-105 transition-transform"
+          />
+          <span className="font-display font-bold text-xl tracking-wide text-black sr-only">WebCrafts</span>
         </a>
 
         {/* Desktop Nav */}
@@ -95,7 +97,7 @@ export default function Header() {
           </nav>
 
           <div className="mt-auto flex justify-center gap-8 pb-12">
-            <p className="text-black/50 font-bold">© {new Date().getFullYear()} WebCraft</p>
+            <p className="text-black/50 font-bold">© {new Date().getFullYear()} WebCrafts</p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ const reviews = [
         company: 'TechNova Pvt. Ltd.',
         initials: 'AS',
         rating: 5,
-        text: "WebCraft delivered our SaaS dashboard in record time without cutting corners on quality. The attention to detail in both the UX and the codebase was genuinely impressive. Highly recommended!",
+        text: "WebCrafts delivered our SaaS dashboard in record time without cutting corners on quality. The attention to detail in both the UX and the codebase was genuinely impressive. Highly recommended!",
         color: 'bg-violet-100 text-violet-700',
     },
     {
@@ -12,7 +12,7 @@ const reviews = [
         company: 'GreenLeaf Organics',
         initials: 'PM',
         rating: 5,
-        text: "Our e-commerce site was redesigned from scratch by the WebCraft team and it shows — conversions jumped 40% in the first month. They truly understood our brand without us having to over-explain.",
+        text: "Our e-commerce site was redesigned from scratch by the WebCrafts team and it shows — conversions jumped 40% in the first month. They truly understood our brand without us having to over-explain.",
         color: 'bg-emerald-100 text-emerald-700',
     },
     {
@@ -28,7 +28,7 @@ const reviews = [
         company: 'Luminae Studios',
         initials: 'SO',
         rating: 5,
-        text: "I came with just a napkin sketch and left with a fully functional, beautiful web app. WebCraft turned our vague idea into a real product — and the ongoing support has been fantastic.",
+        text: "I came with just a napkin sketch and left with a fully functional, beautiful web app. WebCrafts turned our vague idea into a real product — and the ongoing support has been fantastic.",
         color: 'bg-rose-100 text-rose-700',
     },
     {
@@ -36,7 +36,7 @@ const reviews = [
         company: 'Buildify Constructions',
         initials: 'RK',
         rating: 5,
-        text: "We needed a corporate site that felt modern and trustworthy. WebCraft nailed the brief perfectly. The mobile experience is buttery smooth and the site loads incredibly fast.",
+        text: "We needed a corporate site that felt modern and trustworthy. WebCrafts nailed the brief perfectly. The mobile experience is buttery smooth and the site loads incredibly fast.",
         color: 'bg-amber-100 text-amber-700',
     },
     {
@@ -44,7 +44,7 @@ const reviews = [
         company: 'Bloom HR Solutions',
         initials: 'EC',
         rating: 5,
-        text: "Working with WebCraft felt like having an in-house team. They pushed back on ideas that wouldn't have worked and proposed better alternatives. That level of ownership is rare and invaluable.",
+        text: "Working with WebCrafts felt like having an in-house team. They pushed back on ideas that wouldn't have worked and proposed better alternatives. That level of ownership is rare and invaluable.",
         color: 'bg-fuchsia-100 text-fuchsia-700',
     },
 ]
@@ -71,7 +71,7 @@ export default function Reviews() {
                         What Our <span>Clients Say</span>
                     </h2>
                     <p className="text-textMuted text-lg">
-                        Don't just take our word for it — here's what the teams we've worked with have to say about WebCraft.
+                        Don't just take our word for it — here's what the teams we've worked with have to say about WebCrafts.
                     </p>
                 </div>
 

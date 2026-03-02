@@ -11,7 +11,7 @@ export default function About() {
             <div className="aspect-square rounded-2xl bg-white relative border-2 border-black shadow-sketch p-4 lg:p-6 mt-8 sm:mt-0">
               <img
                 src="https://i.redd.it/c04nu8iqwztf1.gif"
-                alt="WebCraft Team at work"
+                alt="WebCrafts Team at work"
                 className="w-full h-full object-cover rounded-xl border-2 border-black/5 bg-gray-50"
               />
             </div>

@@ -24,7 +24,7 @@ export default function Hero() {
               as="button"
               className="bg-white text-black flex items-center space-x-2 text-sm sm:text-base"
             >
-              <span>🚀 Welcome to WebCraft Agency</span>
+              <span>🚀 Welcome to WebCrafts Agency</span>
             </HoverBorderGradient>
           </div>
 
@@ -71,9 +71,9 @@ export default function Hero() {
           <div className="relative w-72 h-72 lg:w-96 lg:h-96">
             <div className="absolute inset-0 bg-black/5 rounded-full border-2 border-black border-dashed animate-spin-slow will-change-transform" />
             <img
-              src="/profile.png"
-              alt="WebCraft Agency Mascot"
-              className="relative w-full h-full object-contain rounded-3xl border-2 border-black bg-white shadow-sketch rotate-3 hover:rotate-0 transition-transform duration-500 p-4"
+              src="/logo.png"
+              alt="WebCrafts Official Logo"
+              className="relative w-full h-full object-contain rounded-3xl border-2 border-black bg-white shadow-sketch rotate-3 hover:rotate-0 transition-all duration-500 p-8"
             />
           </div>
         </div>

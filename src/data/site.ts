@@ -1,10 +1,10 @@
 export const site = {
-  name: 'WebCraft',
+  name: 'WebCrafts',
   tagline: 'We turn ideas into production-ready web & mobile products.',
   email: 'meccode360@gmail.com',
   whatsapp: 'https://wa.me/919627474926',
-  bio: "WebCraft is a full-service digital agency built by a passionate team of developers and designers. We specialise in crafting high-performance, scalable web and mobile applications — helping startups and businesses turn bold ideas into polished digital products.",
-  copyright: `© ${new Date().getFullYear()} WebCraft Agency. All rights reserved.`,
+  bio: "WebCrafts is a full-service digital agency built by a passionate team of developers and designers. We specialise in crafting high-performance, scalable web and mobile applications — helping startups and businesses turn bold ideas into polished digital products.",
+  copyright: `© ${new Date().getFullYear()} WebCrafts Agency. All rights reserved.`,
 }
 
 export type SkillId = 'mern' | 'mongodb' | 'express' | 'react' | 'node' | 'typescript' | 'tailwind' | 'git' | 'html' | 'css' | 'javascript'

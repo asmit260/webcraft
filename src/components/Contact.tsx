@@ -44,7 +44,7 @@ export default function Contact() {
               Start a Project <span>With Us</span>
             </h2>
             <p className="text-textMuted text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Have a project in mind? We'd love to hear about it. Tell us what you're building and let's figure out how WebCraft can help bring it to life.
+              Have a project in mind? We'd love to hear about it. Tell us what you're building and let's figure out how WebCrafts can help bring it to life.
             </p>
 
             <div className="space-y-6 pt-4 text-left">
